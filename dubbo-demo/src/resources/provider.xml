@@ -18,7 +18,7 @@
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="com.bailei.dubbo.demo.DemoService"
 		ref="demoService" class="com.bailei.dubbo.demo.DemoServiceImpl"
-		version="1.0.0" timeout="5000" retries="3" async="false">
+		version="1.0.0" timeout="5000" retries="3" async="false" stub="true">
 		<dubbo:method name="sayHello" timeout="3000" retries="2"
 			async="false">
 		</dubbo:method>
