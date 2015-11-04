@@ -1,7 +1,5 @@
 package com.interview;
 
-import java.util.HashMap;
-import java.util.Hashtable;
 
 public class MultiThread implements Runnable {
 
